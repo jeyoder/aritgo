@@ -9,7 +9,7 @@ SESSION_NAME="stack"
 # Printout
 print("Launching stack in a tmux session.")
 print("This tmux session uses:")
-print("Modifier: C-b")
+print("Modifier: C-a")
 print("Horizontal split: \"")
 print("Vertical split: %")
 print("Launching...")
