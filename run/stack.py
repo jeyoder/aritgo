@@ -82,9 +82,9 @@ window_name = "ROS"
 launch_tmux_window(window_name)
 quarter_window(window_name)
 run_command_in_window(window_name, "roscore", 0)
-time.sleep(2)
+time.sleep(2.5)
 window_command = ("rostopic echo /" + NODE_NAMESPACE + "/local_odom")
-run_command_in_window(window_name, window_command, 1)
+#run_command_in_window(window_name, window_command, 1)
 window_command = ("rosrun gbx2ros gbx2ros_node" +
     " --in " + PATH + "/ppengine_write" + 
     " --out " + NODE_NAMESPACE)

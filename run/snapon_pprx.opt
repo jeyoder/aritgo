@@ -7,7 +7,7 @@
 --bitpack lynx
 --depth 5
 -t -1
---log-interval 5
+--log-interval 10
 --ref-interval 10 
 --acq-interval 500
 --binary-only
