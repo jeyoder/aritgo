@@ -1,0 +1,13 @@
+--input-file ./pprxSat1.gbx
+--verbose
+--config-file ./snapon_sbrtk.config
+--config-file ./snapon_a2d.config
+--ppose-config-file ./snapon_ppose.config
+--skip 30
+-t -1
+-r 2
+-d
+-s mat
+-o precise.gbx
+
+
