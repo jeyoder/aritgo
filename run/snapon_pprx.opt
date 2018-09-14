@@ -11,7 +11,7 @@
 --ref-interval 10 
 --acq-interval 500
 --binary-only
-#-o pprx.gbx
 -o pprx_write
+-T 1
 
 
