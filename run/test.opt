@@ -12,4 +12,5 @@
 --acq-interval 500
 --binary-only
 -o pprx.gbx
+-q
 -v

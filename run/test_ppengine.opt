@@ -1,4 +1,4 @@
---input-file ./pprxSat1.gbx
+--input-file ./pprx.gbx
 --verbose
 --config-file ./snapon_sbrtk.config
 --config-file ./snapon_a2d.config
@@ -6,8 +6,6 @@
 --skip 30
 -t -1
 -r 2
--d
--s mat
 -o precise.gbx
 
 
