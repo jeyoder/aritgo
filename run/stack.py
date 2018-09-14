@@ -58,6 +58,9 @@ def quarter_window(window_name):
     split_window(window_name, '-v', 0)
     split_window(window_name, '-v', 2)
 
+# Cleanly create pipes
+subprocess.run("cd " + PATH + "; ../scripts/make_pipes.bash", shell=True);
+
 # Create new tmux session
 start_new_tmux_session()
 
