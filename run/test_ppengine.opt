@@ -6,6 +6,8 @@
 --skip 30
 -t -1
 -r 2
+-d
+-s mat
 -o precise.gbx
 
 
