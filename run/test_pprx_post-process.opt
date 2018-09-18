@@ -1,0 +1,13 @@
+-i /mnt/storage/data/lynxDatasets/2018LanzaroteSnapon/captures/captureGuapo.bin
+-e
+-c ./snapon_pprx.config
+--bitpack lynx
+--depth 5
+-t -1
+--log-interval 5
+--ref-interval 10 
+--acq-interval 500
+--binary-only
+-o pprx.gbx
+#-q
+-v
