@@ -1,4 +1,4 @@
---input-file /mnt/storage/data/lynxDatasets/2018LanzaroteSnapon/captures/pprxGuapo.gbx
+--input-file /mnt/storage/data/lynxDatasets/2018LanzaroteSnapon/captures/pprxFromJames.gbx
 --verbose
 --config-file ./snapon_sbrtk.config
 --config-file ./snapon_a2d.config
