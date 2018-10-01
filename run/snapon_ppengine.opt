@@ -6,9 +6,6 @@
 --ppose-config-file ./snapon_ppose.config
 --skip 30
 -t -1
--r 2
-#-d
-#-s mat
-#-o precise.gbx
+-r 4
 -o ./ppengine_write
 

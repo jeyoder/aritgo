@@ -1,0 +1,16 @@
+-i /dev/radiolynx0
+--imu-file /dev/radiolynx1
+-e
+--realtime
+--ref-host=10.0.0.2
+-c ./snapon_pprx.config
+--bitpack lynx
+--depth 5
+-t -1
+--log-interval 5
+--ref-interval 10 
+--acq-interval 500
+--binary-only
+-o pprx.gbx
+#-q
+-v

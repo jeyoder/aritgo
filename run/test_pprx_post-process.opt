@@ -1,8 +1,5 @@
--i /dev/radiolynx0
---imu-file /dev/radiolynx1
+-i /mnt/storage/data/lynxDatasets/2018LanzaroteSnapon/captures/captureGuapo.bin
 -e
---realtime
---ref-host=10.0.0.2
 -c ./snapon_pprx.config
 --bitpack lynx
 --depth 5
@@ -12,5 +9,5 @@
 --acq-interval 500
 --binary-only
 -o pprx.gbx
--q
+#-q
 -v
