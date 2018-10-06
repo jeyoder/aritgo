@@ -3,11 +3,13 @@
 -c ./snapon_pprx.config
 --bitpack lynx
 --depth 5
--t -1
+-t 200 # -1
 --log-interval 5
 --ref-interval 10 
 --acq-interval 500
+--import-ephem sp3.eph
 --binary-only
 -o pprx.gbx
 #-q
 -v
+
