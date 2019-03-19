@@ -1,9 +1,9 @@
 --input-file ./ppengine_read
 --verbose
-#--realtime
+--realtime
 --config-file ./snapon_sbrtk.config
 --config-file ./snapon_a2d.config
-#--ppose-config-file ./snapon_ppose.config
+--ppose-config-file ./snapon_ppose.config
 --skip 30
 -t -1
 -r 4
