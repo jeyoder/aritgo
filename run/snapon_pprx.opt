@@ -2,7 +2,7 @@
 --imu-file /dev/radiolynx1
 -e
 --realtime
---ref-host=10.0.0.2
+--ref-host=todd.csr.utexas.edu
 -c ./snapon_pprx.config
 --bitpack lynx
 --depth 5
