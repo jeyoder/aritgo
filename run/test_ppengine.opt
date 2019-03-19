@@ -1,11 +1,13 @@
---input-file /mnt/storage/data/lynxDatasets/2018LanzaroteSnapon/captures/pprxFromJames.gbx
+--input-file /vtrak3/data2/lynxDatasets/spring2019/captures/march19_01.gbx
 --verbose
+#--realtime
 --config-file ./snapon_sbrtk.config
---config-file ./snapon_a2d.config
---ppose-config-file ./snapon_ppose.config
+#--config-file ./snapon_a2d.config
+#--ppose-config-file ./snapon_ppose.config
 --skip 30
 -t -1
--r 4
+-r 200 # 20
+--downsample 20 # RRR
 -d
 -s mat
 -o precise.gbx
