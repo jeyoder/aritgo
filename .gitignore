@@ -1,0 +1,16 @@
+src/gnss_visualization
+src/build
+src/gbx2ros
+src/gss
+src/rscore
+
+src/compile_commands.json
+
+run/*.log
+
+*.gbx
+
+*.swp
+*.swo
+
+
