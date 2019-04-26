@@ -1,0 +1,15 @@
+--input-file ppengine_in
+--verbose
+--realtime
+--config-file ./config_files/snapon_sbrtk.config
+--config-file ./config_files/snapon_a2d.config
+--ppose-config-file ./config_files/snapon_ppose.config
+--skip 30
+-t -1
+-r 1 
+#--downsample 20 # RRR
+-d
+-s mat
+-o output_files/precise.gbx
+
+

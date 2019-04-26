@@ -1,0 +1,14 @@
+[Unit]
+Description=Precise positioning receiver stack
+After=network-online.target
+Requires=network-online.target
+
+[Service]
+User=odroid
+ExecStart=/usr/bin/tmux new-session ./RUN.py
+WorkingDirectory=/home/odroid/aritgo_top/run
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target

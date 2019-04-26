@@ -7,10 +7,11 @@ src/rscore
 src/compile_commands.json
 
 run/*.log
+run/*.mat
+run/*.bin
 
 *.gbx
 
 *.swp
 *.swo
-
 

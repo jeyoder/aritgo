@@ -1,7 +1,7 @@
 -i /dev/radiolynx0
 --imu-file /dev/radiolynx1
 -e
---realtime
+#--realtime
 --ref-host=todd.csr.utexas.edu
 -c ./snapon_pprx.config
 --bitpack lynx
@@ -11,7 +11,9 @@
 --ref-interval 10 
 --acq-interval 500
 --binary-only
--o pprx_write
--T 1
+-o pprx_out
+-v
+-d
 
-
+# TCP server on port 50001
+#--output-port 50001
