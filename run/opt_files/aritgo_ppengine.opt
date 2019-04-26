@@ -6,7 +6,7 @@
 --ppose-config-file ./config_files/snapon_ppose.config
 --skip 30
 -t -1
--r 1 
+-r 5 
 #--downsample 20 # RRR
 -d
 -s mat
