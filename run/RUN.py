@@ -7,7 +7,7 @@ import time
 pprx_args =         shlex.split('pprx -f opt_files/aritgo_pprx.opt')
 tee_args =          'tee ppengine_in output_files/pprx.gbx < pprx_out > /dev/null'
 ppengine_args =     shlex.split('ppengine -f opt_files/aritgo_ppengine.opt')
-netserve_args =     shlex.split('socat -U TCP-LISTEN:50000,fork,reuseaddr SYSTEM:"tail -c +1 -f output_files/precise.gbx"')
+netserve_args =     shlex.split('socat -U TCP-LISTEN:50000,fork,reuseaddr SYSTEM:"tail -c 1 -f output_files/precise.gbx"')
 
 def cleanup():
         print('KILLING PPRX')
