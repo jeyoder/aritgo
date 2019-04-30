@@ -6,7 +6,7 @@ Requires=network-online.target
 [Service]
 User=odroid
 ExecStart=/usr/bin/tmux new-session ./RUN.py
-WorkingDirectory=/home/odroid/aritgo/run
+WorkingDirectory=/home/harlequin/git/aritgo/run
 Restart=always
 RestartSec=10
 

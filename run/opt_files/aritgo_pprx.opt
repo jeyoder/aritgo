@@ -2,10 +2,10 @@
 --imu-file /dev/radiolynx1
 -e
 --realtime
---ref-host=todd.csr.utexas.edu
+--ref-host=refnet1.ae.utexas.edu
 -c ./config_files/snapon_pprx.config
 --bitpack lynx
---depth 5
+--depth 7
 -t -1
 --log-interval 10
 --ref-interval 10 
